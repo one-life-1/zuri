@@ -20,7 +20,7 @@ body {
 
 .home {
     position: absolute;
-    left: 50%;
+    left: 45%;
     top: 25%;
     text-decoration: none;
     color: black;
@@ -29,13 +29,20 @@ body {
 
 .Document {
     position: absolute;
-    left: 55%;
+    left: 60%;
     top: 25%;
     text-decoration: none;
     color: black;
 
 }
+.card {
+    position: absolute;
+    left: 51.5%;
+    top: 25%;
+    text-decoration: none;
+    color: black;
 
+}
 
 .in {
     position: absolute;
@@ -60,56 +67,52 @@ body {
     color: black;
 
 }
+
+
+
 .left {
     position: absolute;
-    margin-left: 10%;
+    line-height: 20px;
+    left: 10%;
+
 }
 
 h1 {
-    line-height: 50px;
     font-size: 50px;
 }
-
-.lower {
+.img {
     position: absolute;
-    top: 70%;
-    line-height: 20px;
+    width: 95%;
 }
 
-.read {
-    margin-top: 10%;
-    background: linear-gradient(134deg, #EB001B -43.28%, #F79E1B 97%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-weight: 500;
-    font-size: 18px;
-}
 
 .right {
+    box-sizing: border-box;
     width: 340px;
-    margin-left: auto;
+    height: 50%;
+    margin-left: 60%;
     padding: 51px, 37px, 51px, 37px;
     border: 1px solid #FF5F00;
     border-radius: 16px;
-margin-right: 10%;
 }
 
 form {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 form label {
+    position: relative;
     width: 80%;
-    top: 30px;
+    height: auto;
+    left: -2%;
+    top: 20px;
     color: #000000;
-
 }
 
 form input {
+    position: relative;
     width: 80%;
     height: 50px;
     padding-left: 10%;
@@ -117,7 +120,6 @@ form input {
     border: 1px solid #E9E9E9;
     border-radius: 5px;
 }
-
 
 .para {
     width: 85%;
@@ -132,6 +134,19 @@ form input {
     background: linear-gradient(134deg, #EB001B -43.28%, #F79E1B 97%);
     color: white;
 }
+
+.para-1 {
+    width: 85%;
+    height: 50px;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    padding: 18px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
 
 .para-2 {
     text-align: center;
@@ -148,6 +163,9 @@ form input {
     color: #EB001B;
     text-decoration: none;
 }
+
+
+
 
 .img {
     position: absolute;
@@ -194,4 +212,3 @@ footer {
     justify-content: center;
     gap: 50px;
 }
-
