@@ -156,6 +156,9 @@ footer {
     line-height: 5px;
 
 }
+.pages a {
+    text-decoration: none;
+}
 
 .social {
     display: flex;
